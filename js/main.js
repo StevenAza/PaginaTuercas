@@ -3,9 +3,14 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 160 || document.documentElement.scrollTop > 160) {
-    document.getElementById("myBtn").style.display = "block";
+
+    $("#myBtn").addClass("scale-in");
+    $("#myBtn").removeClass("scale-out");
+
   } else {
-    document.getElementById("myBtn").style.display = "none";
+    $("#myBtn").removeClass("scale-in");
+    $("#myBtn").addClass("scale-out");
+
   }
 }
 

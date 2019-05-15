@@ -130,7 +130,7 @@ section#nuestrosServicios #diseno .image-text h3 {
   margin: 0;
   font-size: 8.8rem;
   position: absolute;
-  top: -.87em;
+  top: -1.3em;
   z-index: 11;
 }
 
@@ -268,8 +268,6 @@ figure#f-diseno:before {
 }
 
 #myBtn {
-  display: none;
-  /* Hidden by default */
   position: fixed;
   /* Fixed/sticky position */
   bottom: 20px;
@@ -289,5 +287,51 @@ figure#f-diseno:before {
   background-color: #ead443 !important;
   color: #1a237e;
   /* Add a dark-grey background on hover */
+}
+
+#cont-noticias header .banner {
+  background-image: url("/src/noticias-banner.jpg");
+  background-position-x: 0em;
+  background-size: cover;
+  background-position-y: -14em;
+}
+
+#cont-noticias header .banner .container .text {
+  margin-top: 15em;
+  padding: 0em;
+  padding-left: 2em;
+  height: 100%;
+  border-radius: 0px;
+  background-color: transparent;
+  border-left: 7px solid #8bb4b6;
+}
+
+#cont-noticias header .banner .container .text h1 {
+  margin-top: 0px;
+  font-size: 80px;
+  margin-bottom: .5em;
+  position: relative;
+  font-weight: 400;
+  color: #383b3c;
+}
+
+#cont-noticias section#noticias_s {
+  margin-top: 3em;
+  position: relative;
+}
+
+#cont-noticias section#noticias_s .noticias_c {
+  background-color: white;
+  height: 7em;
+  position: absolute;
+  top: 6em;
+  width: 100%;
+  -webkit-transform: skew(0deg, -4deg) translateY(-190px);
+          transform: skew(0deg, -4deg) translateY(-190px);
+}
+
+#cont-noticias section#noticias_s .noticias_c .skew_90 {
+  -webkit-transform: skew(0deg, 10deg) translateY(-190px);
+          transform: skew(0deg, 10deg) translateY(-190px);
 }
 /*# sourceMappingURL=main.css.map */
